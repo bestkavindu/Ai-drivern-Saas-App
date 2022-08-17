@@ -26,7 +26,7 @@ def main():
 def genarate_keyword(promt:str) ->List[str]:
 
     # Load your API key from an environment variable or secret management service
-    openai.api_key = "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"  
+    openai.api_key = "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"  
     # openai.api_key = os.getenv("OPENAI_API_KEY")
 
     enriched_promt = f"Genarate Related Branding key words for  {promt}:"
@@ -54,7 +54,7 @@ def validate_length(promt: str) -> bool:
 def genarate_branding_anippet(promt:str) ->str:
 
     # Load your API key from an environment variable or secret management service
-    openai.api_key = "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"  
+    openai.api_key = "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"  
     # openai.api_key = os.getenv("OPENAI_API_KEY")
 
     enriched_promt = f"generate upbeat branding snippet for {promt}:"
