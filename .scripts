@@ -1,0 +1,5 @@
+set OPENAI_API_KEY = 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
+
+python copykitt.py -i "cars"
+
+uvicorn copykitt_api:app --reload
